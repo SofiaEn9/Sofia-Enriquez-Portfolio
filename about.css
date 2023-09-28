@@ -36,11 +36,11 @@ nav a {
 }
 
 nav li.active a {
-  color: #039d7e;
+  color: var(--yellow-color);
 }
 
 nav li:hover {
-  border-bottom: 2px solid #038268;
+  border-bottom: 2px solid var(--yellow-color);
 }
 
 .container {
