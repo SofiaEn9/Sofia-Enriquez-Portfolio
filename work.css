@@ -93,7 +93,7 @@ p {
   padding-bottom: 0px;
 }
 
-a {
+a.project-link {
   display: inline;
   padding-left: 50px;
 }
@@ -125,7 +125,7 @@ span.arrow {
   width: 360px;
 }
 
-a.below-img-link {
+a.project-link.below-img {
   padding: 0px 0px 0px 10px;
 }
 
