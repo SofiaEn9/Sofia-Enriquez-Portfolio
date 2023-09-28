@@ -1,0 +1,103 @@
+:root {
+  --red-color: #ff6f61;
+  --yellow-color: #edb33c;
+  --green-color: #039d7e;
+  --gray-color: #d9d9d9;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10px;
+}
+
+nav ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 10px 10px 5px 10px;
+  font-family: "Inter", sans-serif;
+  transition: all 100ms;
+}
+
+nav a {
+  color: black;
+  opacity: 75%;
+  text-decoration: none;
+}
+
+nav li.active a {
+  color: #039d7e;
+}
+
+nav li:hover {
+  border-bottom: 2px solid #038268;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.about-me-section {
+  padding-right: 45px;
+}
+
+h3 {
+  font-family: "Italiana", serif;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+h3.about-me {
+  background-color: var(--yellow-color);
+  border-radius: 30px;
+  display: inline;
+  line-height: 3;
+  padding: 8px 30px;
+}
+
+h3.technologies-title {
+  margin-top: 40px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.span-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span {
+  background-color: var(--gray-color);
+  border-radius: 30px;
+  display: inline;
+  padding: 8px 20px;
+  margin: 5px;
+}
+
+span.high-light {
+  background-color: var(--yellow-color);
+  border-radius: 0px;
+  display: inline;
+  padding: 0px 5px;
+  margin: 0px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    margin-top: 150px;
+  }
+}
