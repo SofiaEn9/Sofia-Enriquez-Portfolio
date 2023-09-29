@@ -67,6 +67,15 @@ h3.about-me {
   padding: 8px 30px;
 }
 
+span.circle-detail {
+  background-color: var(--yellow-color);
+  font-size: 12px;
+  padding: 0px 7px;
+  margin: 5px 10px;
+  position: relative;
+  top: -8px;
+}
+
 h3.technologies-title {
   margin-top: 40px;
 }
