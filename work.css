@@ -127,3 +127,16 @@ hr {
   margin: 50px;
   align-self: center;
 }
+
+@media (max-width: 576px) {
+  .project-container {
+    margin-top: 30px;
+  }
+
+  img.square-img {
+    width: 320px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  }
+}
