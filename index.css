@@ -94,6 +94,12 @@ span.blank-space {
   position: relative;
   top: -5px;
   color: var(--gray-color);
+  transition: 1s all ease-in-out;
+}
+
+.fa-solid:hover {
+  color: blue;
+  opacity: 0.6;
 }
 
 span.circle-detail {
