@@ -97,16 +97,12 @@ span {
   margin: 5px;
 }
 
-span.high-light {
-  background-color: var(--yellow-color);
-  border-radius: 0px;
-  display: inline;
-  padding: 0px 5px;
-  margin: 0px;
-}
-
 @media (max-width: 576px) {
   .container {
     margin: 50px 0px 75px;
+  }
+
+  .secondary-col {
+    margin-top: 20px;
   }
 }
