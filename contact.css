@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--bg-color);
+  font-family: "Inter", sans-serif;
 }
 
 nav {
@@ -26,7 +27,7 @@ nav li {
   display: inline;
   list-style: none;
   padding: 10px 10px 5px 10px;
-  font-family: "Inter", sans-serif;
+
   transition: all 100ms;
 }
 
@@ -61,8 +62,8 @@ nav li:hover {
 }
 
 h3.contact-me {
-  font-family: "Italiana", serif;
-  font-size: 36px;
+  font-family: "Prata", serif;
+  font-size: 30px;
   background-color: var(--green-color);
   border-radius: 30px;
   display: inline;

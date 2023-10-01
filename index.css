@@ -27,7 +27,6 @@ nav li {
   display: inline;
   list-style: none;
   padding: 10px 10px 5px 10px;
-  font-family: "Inter", sans-serif;
   transition: all 100ms;
 }
 
@@ -64,16 +63,20 @@ main.container-hero {
 
 h1 {
   font-size: 48px;
+  font-weight: 400;
   margin: 15px 0px;
 }
 
 h2 {
   font-size: 48px;
+  font-weight: 400;
+  margin: 15px;
 }
 
 h3 {
   font-size: 44px;
-  margin-bottom: 15px;
+  font-weight: 400;
+  margin: 15px 0px 30px;
 }
 
 span.search-bar {
@@ -112,12 +115,8 @@ span.circle-detail {
   top: -8px;
 }
 
-span.span-list {
-  margin-top: 15px;
-}
-
 span.list-element {
-  font-family: "Italiana", serif;
+  font-family: "Prata", serif;
   background-color: var(--gray-color);
   border-radius: 30px;
   display: inline;
@@ -150,6 +149,8 @@ span.list-element.about main img {
 
 .hero-img {
   width: 350px;
+  position: relative;
+  left: 25px;
 }
 
 @media (max-width: 1388px) {
