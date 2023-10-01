@@ -133,6 +133,11 @@ span.list-element.contact {
   background-color: var(--green-color);
 }
 
+span a {
+  text-decoration: none;
+  color: black;
+}
+
 span.list-element.about main img {
   width: 500px;
 }
