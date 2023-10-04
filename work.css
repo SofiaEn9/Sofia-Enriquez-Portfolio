@@ -115,7 +115,7 @@ img.square-img {
 }
 
 img.round-corners {
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 img.square-img:hover {
@@ -134,6 +134,15 @@ hr {
 
   .project-container {
     margin-top: 30px;
+  }
+
+  img.round-corners {
+    border-radius: 15px;
+  }
+
+  p {
+    padding-bottom: 0px;
+    margin-top: 25px;
   }
 
   img.square-img {
