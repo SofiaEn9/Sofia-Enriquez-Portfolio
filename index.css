@@ -188,8 +188,11 @@ img {
     margin: 20px 5px 0px;
   }
 
-  img.hero-img {
+  img {
+    width: 375px;
     padding-top: 50px;
+    display: block;
+    margin: auto;
   }
 }
 
@@ -214,9 +217,9 @@ img {
   }
 }
 
-@media (min-width: 993px) and (max-width: 1088px) {
+@media (min-width: 993px) and (max-width: 1215px) {
   .hero-text {
-    padding-left: 150px;
+    padding-left: 120px;
   }
 
   h1 {
@@ -231,5 +234,9 @@ img {
   span.list-element {
     padding: 8px 15px;
     margin: 15px 5px 0px;
+  }
+
+  img {
+    width: 450px;
   }
 }
